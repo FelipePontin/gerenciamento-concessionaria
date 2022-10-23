@@ -1,0 +1,185 @@
+.estoque {
+    display: flex;
+    align-items: flex-start;
+}
+
+.estoque_filtro {
+    padding: 1rem 1.5rem;
+    width: max-content;
+    height: calc(100vh - 68px);
+    background: #FFFFFF;
+}
+
+.estoque_titulo {
+    font-weight: bold;
+}
+
+.estoque_divisao_input {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.estoque_nome_label {
+    font-size: .85rem;
+}
+
+.estoque_input {
+    width: 15rem;
+    height: 2rem;
+    border: 1px solid #ccc;
+    border-radius: .15rem;
+    margin: .5rem 0 0 0;
+    padding: .3rem .3rem .3rem .3rem;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.estoque_input:focus {
+    outline: none;
+    box-shadow: #F3123C96 0px 0px 0px 3px;
+}
+
+.estoque_cores {
+    display: flex;
+    margin: .5rem 0 0 0;
+}
+
+.estoque_cor {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    margin: 0 .5rem 0 0;
+    border-radius: 50%;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.estoque_cor:hover {
+    transform: scale(1.1);
+}
+
+.estoque_cor:active {
+    transform: scale(.95);
+}
+
+.cor_vermelho {
+    background: #F3123C;
+}
+
+.cor_laranja {
+    background: #E28E10;
+}
+
+.cor_amarelo {
+    background: #F3CF12;
+
+}
+
+.cor_verde {
+    background: #05AB16;
+}
+
+.cor_azul_claro {
+    background: #12F3F3;
+}
+
+.cor_azul_escuro {
+    background: #0C14D3;
+}
+
+.cor_roxa {
+    background: #6812F3;
+}
+
+.cor_preto {
+    background: #040404;
+}
+
+.cor_prata {
+    background: #C9C9C9;
+}
+
+.estoque_carros {
+    width: 100%;
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.estoque_carros_divisao_titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.estoque_btn_cadastrar {
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #F3123C;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.estoque_btn_cadastrar:hover {
+    background: #9e0a25;
+}
+
+.estoque_divisao_carros {
+    display: flex;
+    align-items: flex-start;
+    margin: 1.5rem 0 0 0;
+}
+
+.estoque_carro {
+    background: #FFFFFF;
+}
+
+.estoque_imagem_carro {
+    width: 17rem;
+    height: 9rem;
+    border-radius: .25rem .25rem 0 0;
+    background: #CCCCCC;
+}
+
+.estoque_divisao_informacoes {
+    padding: 0 .65rem 1rem .65rem;
+}
+
+.estoque_divisao_carro {
+    display: flex;
+    justify-content: space-between;
+    margin: .35rem 0 0 0;
+}
+
+.estoque_nome_carro {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000c7;
+}
+
+.estoque_ano_carro {
+    font-size: .95rem;
+}
+
+.estoque_quilometragem_carro {
+    font-size: .85rem;
+}
+
+.estoque_preco_carro {
+    font-weight: 600;
+    font-size: 1.15rem;
+    margin: 4rem 0 .65rem 0;
+    color: #000000cc;
+}
+
+.estoque_btn_detalhes {
+    width: 100%;
+    height: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #F3123C;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
